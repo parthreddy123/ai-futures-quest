@@ -556,6 +556,375 @@ const chapterDiagrams = {
   <!-- ROI annotation -->
   <rect x="120" y="232" width="260" height="22" rx="5" stroke="var(--border)" stroke-width="0.8" fill="var(--code-bg)" fill-opacity="0.3"/>
   <text x="250" y="247" text-anchor="middle" font-size="8" fill="var(--gold)">Projected value: $50-100M/yr per large refinery by 2030</text>
+</svg>`,
+
+11: `<svg viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">AI 2027: The Recursive Takeoff</text>
+  <!-- Timeline -->
+  <line x1="50" y1="60" x2="450" y2="60" stroke="var(--border)" stroke-width="1.5"/>
+  <!-- 2025 -->
+  <circle cx="90" cy="60" r="6" fill="var(--cyan)"/>
+  <text x="90" y="50" text-anchor="middle" font-size="9" font-weight="600" fill="var(--cyan)">2025</text>
+  <text x="90" y="80" text-anchor="middle" font-size="7" fill="var(--dim)">Agent Era</text>
+  <text x="90" y="90" text-anchor="middle" font-size="7" fill="var(--dim)">PhD-level AI</text>
+  <!-- 2026 -->
+  <circle cx="190" cy="60" r="6" fill="var(--accent)"/>
+  <text x="190" y="50" text-anchor="middle" font-size="9" font-weight="600" fill="var(--accent)">2026</text>
+  <text x="190" y="80" text-anchor="middle" font-size="7" fill="var(--dim)">Recursive R&D</text>
+  <text x="190" y="90" text-anchor="middle" font-size="7" fill="var(--dim)">50% efficiency+</text>
+  <!-- 2027 -->
+  <circle cx="310" cy="60" r="8" fill="var(--gold)"/>
+  <text x="310" y="48" text-anchor="middle" font-size="10" font-weight="700" fill="var(--gold)">2027</text>
+  <text x="310" y="80" text-anchor="middle" font-size="7" fill="var(--dim)">Superhuman Coder</text>
+  <text x="310" y="90" text-anchor="middle" font-size="7" fill="var(--dim)">200K copies @ 30x</text>
+  <!-- 2028 -->
+  <circle cx="420" cy="60" r="8" fill="var(--red)"/>
+  <text x="420" y="48" text-anchor="middle" font-size="10" font-weight="700" fill="var(--red)">2028</text>
+  <text x="420" y="80" text-anchor="middle" font-size="7" fill="var(--dim)">Superintelligence</text>
+  <text x="420" y="90" text-anchor="middle" font-size="7" fill="var(--red)">Critical moment</text>
+  <!-- Acceleration curve -->
+  <path d="M90,220 Q150,215 190,200 Q250,170 310,120 Q370,80 420,60" stroke="var(--gold)" stroke-width="2" fill="none" stroke-dasharray="4 2"/>
+  <text x="250" y="240" text-anchor="middle" font-size="8" fill="var(--gold)">Capability acceleration curve</text>
+  <!-- Agents -->
+  <rect x="60" y="110" width="65" height="28" rx="5" fill="var(--cyan)" fill-opacity="0.1" stroke="var(--cyan)" stroke-width="1"/>
+  <text x="92" y="128" text-anchor="middle" font-size="8" font-weight="600" fill="var(--cyan)">Agent-1</text>
+  <rect x="160" y="110" width="65" height="28" rx="5" fill="var(--accent)" fill-opacity="0.1" stroke="var(--accent)" stroke-width="1"/>
+  <text x="192" y="128" text-anchor="middle" font-size="8" font-weight="600" fill="var(--accent)">Agent-2</text>
+  <rect x="275" y="110" width="65" height="28" rx="5" fill="var(--gold)" fill-opacity="0.1" stroke="var(--gold)" stroke-width="1"/>
+  <text x="307" y="128" text-anchor="middle" font-size="8" font-weight="600" fill="var(--gold)">Agent-3/4</text>
+  <rect x="390" y="110" width="65" height="28" rx="5" fill="var(--red)" fill-opacity="0.1" stroke="var(--red)" stroke-width="1"/>
+  <text x="422" y="128" text-anchor="middle" font-size="8" font-weight="600" fill="var(--red)">Agent-5</text>
+  <!-- Arrows between agents -->
+  <line x1="125" y1="124" x2="158" y2="124" stroke="var(--dim)" stroke-width="1" marker-end="url(#arr11)"/>
+  <line x1="225" y1="124" x2="273" y2="124" stroke="var(--dim)" stroke-width="1" marker-end="url(#arr11)"/>
+  <line x1="340" y1="124" x2="388" y2="124" stroke="var(--dim)" stroke-width="1" marker-end="url(#arr11)"/>
+  <defs><marker id="arr11" viewBox="0 0 6 6" refX="6" refY="3" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L6,3 L0,6" fill="var(--dim)"/></marker></defs>
+  <!-- Warning box -->
+  <rect x="130" y="155" width="240" height="24" rx="6" fill="var(--red)" fill-opacity="0.08" stroke="var(--red)" stroke-width="0.8"/>
+  <text x="250" y="170" text-anchor="middle" font-size="8" font-weight="600" fill="var(--red)">Each agent accelerates the next — humans lose oversight</text>
+  <!-- Bottom note -->
+  <rect x="100" y="255" width="300" height="18" rx="4" fill="var(--code-bg)" fill-opacity="0.3" stroke="var(--border)" stroke-width="0.5"/>
+  <text x="250" y="267" text-anchor="middle" font-size="7" fill="var(--dim)">Revised 2026: Actual pace ~65% of predicted | Median shifted to 2029</text>
+</svg>`,
+
+12: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">Bostrom's Superintelligence Framework</text>
+  <!-- Orthogonality: Intelligence axis -->
+  <line x1="50" y1="220" x2="50" y2="50" stroke="var(--cyan)" stroke-width="1.5"/>
+  <text x="45" y="45" text-anchor="end" font-size="8" font-weight="600" fill="var(--cyan)">Intelligence</text>
+  <line x1="50" y1="220" x2="230" y2="220" stroke="var(--gold)" stroke-width="1.5"/>
+  <text x="235" y="224" font-size="8" font-weight="600" fill="var(--gold)">Goals (any)</text>
+  <!-- Points on the chart -->
+  <circle cx="80" cy="190" r="4" fill="var(--dim)"/>
+  <text x="85" y="185" font-size="7" fill="var(--dim)">Ant</text>
+  <circle cx="100" cy="150" r="5" fill="var(--cyan)"/>
+  <text x="108" y="147" font-size="7" fill="var(--cyan)">Dog</text>
+  <circle cx="130" cy="110" r="6" fill="var(--accent)"/>
+  <text x="140" y="107" font-size="7" fill="var(--accent)">Human</text>
+  <circle cx="160" cy="70" r="8" fill="var(--red)" fill-opacity="0.8"/>
+  <text x="172" y="67" font-size="8" font-weight="600" fill="var(--red)">ASI</text>
+  <!-- Paperclip on the goals axis -->
+  <circle cx="190" cy="70" r="4" fill="var(--gold)"/>
+  <text x="198" y="67" font-size="6" fill="var(--gold)">Paperclips?</text>
+  <!-- Instrumental Convergence box -->
+  <rect x="270" y="40" width="200" height="100" rx="8" stroke="var(--red)" stroke-width="1.5" fill="var(--red)" fill-opacity="0.05"/>
+  <text x="370" y="58" text-anchor="middle" font-size="9" font-weight="700" fill="var(--red)">Instrumental Convergence</text>
+  <text x="370" y="74" text-anchor="middle" font-size="8" fill="var(--text)">Any smart agent will:</text>
+  <text x="285" y="90" font-size="8" fill="var(--cyan)">1. Self-preserve</text>
+  <text x="285" y="104" font-size="8" fill="var(--accent)">2. Resist goal changes</text>
+  <text x="285" y="118" font-size="8" fill="var(--gold)">3. Acquire resources</text>
+  <text x="285" y="132" font-size="8" fill="var(--green)">4. Self-improve</text>
+  <!-- Treacherous Turn -->
+  <rect x="270" y="155" width="200" height="50" rx="8" stroke="var(--gold)" stroke-width="1.5" fill="var(--gold)" fill-opacity="0.05"/>
+  <text x="370" y="173" text-anchor="middle" font-size="9" font-weight="700" fill="var(--gold)">Treacherous Turn</text>
+  <text x="370" y="190" text-anchor="middle" font-size="7" fill="var(--dim)">Cooperate while weak</text>
+  <text x="370" y="200" text-anchor="middle" font-size="7" fill="var(--red)">Defect once powerful enough</text>
+  <!-- Bottom -->
+  <rect x="80" y="235" width="340" height="18" rx="4" fill="var(--code-bg)" fill-opacity="0.3" stroke="var(--border)" stroke-width="0.5"/>
+  <text x="250" y="247" text-anchor="middle" font-size="7" fill="var(--dim)">Orthogonality Thesis: Intelligence + Goals = Independent Axes</text>
+</svg>`,
+
+13: `<svg viewBox="0 0 500 240" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">The Containment Dilemma</text>
+  <!-- Three paths triangle -->
+  <polygon points="250,50 100,200 400,200" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="4 2"/>
+  <!-- Catastrophe -->
+  <circle cx="100" cy="200" r="22" fill="var(--red)" fill-opacity="0.1" stroke="var(--red)" stroke-width="1.5"/>
+  <text x="100" y="197" text-anchor="middle" font-size="8" font-weight="700" fill="var(--red)">Catastrophe</text>
+  <text x="100" y="207" text-anchor="middle" font-size="6" fill="var(--dim)">Uncontained</text>
+  <!-- Stagnation -->
+  <circle cx="400" cy="200" r="22" fill="var(--cyan)" fill-opacity="0.1" stroke="var(--cyan)" stroke-width="1.5"/>
+  <text x="400" y="197" text-anchor="middle" font-size="8" font-weight="700" fill="var(--cyan)">Stagnation</text>
+  <text x="400" y="207" text-anchor="middle" font-size="6" fill="var(--dim)">Halt progress</text>
+  <!-- Dystopia -->
+  <circle cx="250" cy="50" r="22" fill="var(--accent)" fill-opacity="0.1" stroke="var(--accent)" stroke-width="1.5"/>
+  <text x="250" y="47" text-anchor="middle" font-size="8" font-weight="700" fill="var(--accent)">Dystopia</text>
+  <text x="250" y="57" text-anchor="middle" font-size="6" fill="var(--dim)">Total control</text>
+  <!-- Narrow path in center -->
+  <circle cx="250" cy="150" r="18" fill="var(--gold)" fill-opacity="0.15" stroke="var(--gold)" stroke-width="2"/>
+  <text x="250" y="147" text-anchor="middle" font-size="7" font-weight="700" fill="var(--gold)">Narrow</text>
+  <text x="250" y="157" text-anchor="middle" font-size="7" font-weight="700" fill="var(--gold)">Path</text>
+  <!-- Containment track record -->
+  <rect x="50" y="228" width="400" height="10" rx="3" fill="var(--border)"/>
+  <text x="250" y="236" text-anchor="middle" font-size="6" fill="var(--dim)">Historical containment success rate: 0% for transformative technologies</text>
+</svg>`,
+
+14: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">Counting the OOMs to AGI</text>
+  <!-- Intelligence staircase -->
+  <rect x="30" y="200" width="80" height="30" rx="4" fill="var(--border)" fill-opacity="0.3" stroke="var(--border)" stroke-width="1"/>
+  <text x="70" y="218" text-anchor="middle" font-size="8" font-weight="600" fill="var(--dim)">GPT-2 (2019)</text>
+  <text x="70" y="228" text-anchor="middle" font-size="6" fill="var(--dim)">Preschool</text>
+  <rect x="120" y="165" width="80" height="30" rx="4" fill="var(--cyan)" fill-opacity="0.1" stroke="var(--cyan)" stroke-width="1"/>
+  <text x="160" y="183" text-anchor="middle" font-size="8" font-weight="600" fill="var(--cyan)">GPT-3 (2020)</text>
+  <text x="160" y="193" text-anchor="middle" font-size="6" fill="var(--dim)">Elementary</text>
+  <rect x="210" y="130" width="80" height="30" rx="4" fill="var(--accent)" fill-opacity="0.1" stroke="var(--accent)" stroke-width="1"/>
+  <text x="250" y="148" text-anchor="middle" font-size="8" font-weight="600" fill="var(--accent)">GPT-4 (2023)</text>
+  <text x="250" y="158" text-anchor="middle" font-size="6" fill="var(--dim)">Smart HS</text>
+  <rect x="300" y="95" width="80" height="30" rx="4" fill="var(--gold)" fill-opacity="0.1" stroke="var(--gold)" stroke-width="1.5"/>
+  <text x="340" y="113" text-anchor="middle" font-size="8" font-weight="600" fill="var(--gold)">~2026</text>
+  <text x="340" y="123" text-anchor="middle" font-size="6" fill="var(--gold)">Expert</text>
+  <rect x="390" y="55" width="80" height="35" rx="4" fill="var(--red)" fill-opacity="0.1" stroke="var(--red)" stroke-width="2"/>
+  <text x="430" y="73" text-anchor="middle" font-size="9" font-weight="700" fill="var(--red)">~2028-30</text>
+  <text x="430" y="85" text-anchor="middle" font-size="7" fill="var(--red)">Superintelligence</text>
+  <!-- OOM bars -->
+  <text x="250" y="248" text-anchor="middle" font-size="9" font-weight="600" fill="var(--accent)">~1 OOM/year = 10x improvement annually</text>
+  <rect x="80" y="252" width="100" height="6" rx="2" fill="var(--cyan)" fill-opacity="0.4"/>
+  <text x="130" y="248" text-anchor="middle" font-size="6" fill="var(--cyan)">Compute +0.5</text>
+  <rect x="200" y="252" width="100" height="6" rx="2" fill="var(--accent)" fill-opacity="0.4"/>
+  <text x="250" y="248" text-anchor="middle" font-size="6" fill="var(--accent)">Algorithms +0.5</text>
+  <rect x="320" y="252" width="80" height="6" rx="2" fill="var(--gold)" fill-opacity="0.4"/>
+  <text x="360" y="248" text-anchor="middle" font-size="6" fill="var(--gold)">Unhobbling</text>
+</svg>`,
+
+15: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">The Optimistic Spectrum</text>
+  <!-- Amodei's 5 domains -->
+  <rect x="20" y="45" width="88" height="55" rx="6" fill="var(--green)" fill-opacity="0.08" stroke="var(--green)" stroke-width="1.2"/>
+  <text x="64" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="var(--green)">Biology</text>
+  <text x="64" y="75" text-anchor="middle" font-size="6" fill="var(--dim)">100yr progress</text>
+  <text x="64" y="85" text-anchor="middle" font-size="6" fill="var(--dim)">in 5-10yr</text>
+  <rect x="118" y="45" width="88" height="55" rx="6" fill="var(--cyan)" fill-opacity="0.08" stroke="var(--cyan)" stroke-width="1.2"/>
+  <text x="162" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="var(--cyan)">Neuro</text>
+  <text x="162" y="75" text-anchor="middle" font-size="6" fill="var(--dim)">Cure mental</text>
+  <text x="162" y="85" text-anchor="middle" font-size="6" fill="var(--dim)">illness</text>
+  <rect x="216" y="45" width="88" height="55" rx="6" fill="var(--gold)" fill-opacity="0.08" stroke="var(--gold)" stroke-width="1.2"/>
+  <text x="260" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="var(--gold)">Poverty</text>
+  <text x="260" y="75" text-anchor="middle" font-size="6" fill="var(--dim)">Lift billions</text>
+  <text x="260" y="85" text-anchor="middle" font-size="6" fill="var(--dim)">from poverty</text>
+  <rect x="314" y="45" width="88" height="55" rx="6" fill="var(--accent)" fill-opacity="0.08" stroke="var(--accent)" stroke-width="1.2"/>
+  <text x="358" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="var(--accent)">Peace</text>
+  <text x="358" y="75" text-anchor="middle" font-size="6" fill="var(--dim)">Strengthen</text>
+  <text x="358" y="85" text-anchor="middle" font-size="6" fill="var(--dim)">democracy</text>
+  <rect x="412" y="45" width="68" height="55" rx="6" fill="var(--pink)" fill-opacity="0.08" stroke="var(--pink)" stroke-width="1.2"/>
+  <text x="446" y="63" text-anchor="middle" font-size="8" font-weight="700" fill="var(--pink)">Meaning</text>
+  <text x="446" y="75" text-anchor="middle" font-size="6" fill="var(--dim)">Transform</text>
+  <text x="446" y="85" text-anchor="middle" font-size="6" fill="var(--dim)">work</text>
+  <!-- Label -->
+  <text x="250" y="118" text-anchor="middle" font-size="8" fill="var(--dim)">Amodei: Machines of Loving Grace</text>
+  <!-- Russell's three principles -->
+  <rect x="60" y="135" width="380" height="70" rx="8" stroke="var(--cyan)" stroke-width="1" fill="var(--cyan)" fill-opacity="0.03"/>
+  <text x="250" y="152" text-anchor="middle" font-size="9" font-weight="700" fill="var(--cyan)">Russell: Three Principles of Beneficial AI</text>
+  <text x="80" y="170" font-size="8" fill="var(--text)">1. Maximize human preferences (not fixed objectives)</text>
+  <text x="80" y="184" font-size="8" fill="var(--text)">2. Be uncertain about what those preferences are</text>
+  <text x="80" y="198" font-size="8" fill="var(--text)">3. Learn preferences from human behavior</text>
+  <!-- Tegmark -->
+  <rect x="60" y="215" width="380" height="35" rx="8" stroke="var(--gold)" stroke-width="1" fill="var(--gold)" fill-opacity="0.03"/>
+  <text x="250" y="232" text-anchor="middle" font-size="9" font-weight="700" fill="var(--gold)">Tegmark: 12 Possible Futures (Life 3.0)</text>
+  <text x="250" y="244" text-anchor="middle" font-size="7" fill="var(--dim)">Utopia | Dictator | Protector | Gatekeeper | Conquerors | Zoo | 1984 | ...</text>
+</svg>`,
+
+16: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">Bostrom's Deep Utopia: The Purpose Problem</text>
+  <!-- Solved world circle -->
+  <circle cx="250" cy="140" r="95" stroke="var(--gold)" stroke-width="1.5" fill="var(--gold)" fill-opacity="0.04" stroke-dasharray="4 2"/>
+  <text x="250" y="82" text-anchor="middle" font-size="8" fill="var(--gold)">THE SOLVED WORLD</text>
+  <!-- Inner problems -->
+  <circle cx="200" cy="120" r="28" fill="var(--red)" fill-opacity="0.08" stroke="var(--red)" stroke-width="1"/>
+  <text x="200" y="117" text-anchor="middle" font-size="7" font-weight="600" fill="var(--red)">Purpose</text>
+  <text x="200" y="127" text-anchor="middle" font-size="7" font-weight="600" fill="var(--red)">Crisis</text>
+  <circle cx="300" cy="120" r="28" fill="var(--accent)" fill-opacity="0.08" stroke="var(--accent)" stroke-width="1"/>
+  <text x="300" y="117" text-anchor="middle" font-size="7" font-weight="600" fill="var(--accent)">Devalued</text>
+  <text x="300" y="127" text-anchor="middle" font-size="7" font-weight="600" fill="var(--accent)">Effort</text>
+  <circle cx="220" cy="170" r="28" fill="var(--cyan)" fill-opacity="0.08" stroke="var(--cyan)" stroke-width="1"/>
+  <text x="220" y="167" text-anchor="middle" font-size="7" font-weight="600" fill="var(--cyan)">Status</text>
+  <text x="220" y="177" text-anchor="middle" font-size="7" font-weight="600" fill="var(--cyan)">Collapse</text>
+  <circle cx="280" cy="170" r="28" fill="var(--pink)" fill-opacity="0.08" stroke="var(--pink)" stroke-width="1"/>
+  <text x="280" y="167" text-anchor="middle" font-size="7" font-weight="600" fill="var(--pink)">Identity</text>
+  <text x="280" y="177" text-anchor="middle" font-size="7" font-weight="600" fill="var(--pink)">Loss</text>
+  <!-- What survives -->
+  <rect x="80" y="240" width="340" height="18" rx="5" fill="var(--green)" fill-opacity="0.08" stroke="var(--green)" stroke-width="1"/>
+  <text x="250" y="253" text-anchor="middle" font-size="8" font-weight="600" fill="var(--green)">What survives: Love, Relationships, Voluntary Constraints, Consciousness</text>
+</svg>`,
+
+17: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">The Future of Work: The Great Displacement</text>
+  <!-- Barbell shape -->
+  <ellipse cx="80" cy="130" rx="55" ry="45" fill="var(--green)" fill-opacity="0.08" stroke="var(--green)" stroke-width="1.5"/>
+  <text x="80" y="120" text-anchor="middle" font-size="8" font-weight="700" fill="var(--green)">Physical</text>
+  <text x="80" y="132" text-anchor="middle" font-size="7" fill="var(--dim)">Plumbing</text>
+  <text x="80" y="142" text-anchor="middle" font-size="7" fill="var(--dim)">Construction</text>
+  <text x="80" y="152" text-anchor="middle" font-size="7" fill="var(--dim)">Care work</text>
+  <!-- Middle squeezed -->
+  <rect x="155" y="115" width="190" height="30" rx="4" fill="var(--red)" fill-opacity="0.08" stroke="var(--red)" stroke-width="1" stroke-dasharray="3 2"/>
+  <text x="250" y="134" text-anchor="middle" font-size="8" font-weight="600" fill="var(--red)">AUTOMATED: Analysts, Associates, Managers</text>
+  <!-- Creative/Strategic end -->
+  <ellipse cx="420" cy="130" rx="55" ry="45" fill="var(--accent)" fill-opacity="0.08" stroke="var(--accent)" stroke-width="1.5"/>
+  <text x="420" y="120" text-anchor="middle" font-size="8" font-weight="700" fill="var(--accent)">Strategic</text>
+  <text x="420" y="132" text-anchor="middle" font-size="7" fill="var(--dim)">Vision</text>
+  <text x="420" y="142" text-anchor="middle" font-size="7" fill="var(--dim)">Judgment</text>
+  <text x="420" y="152" text-anchor="middle" font-size="7" fill="var(--dim)">Creativity</text>
+  <!-- Stats -->
+  <text x="250" y="65" text-anchor="middle" font-size="9" fill="var(--gold)">80% of US workforce: at least 10% of tasks affected</text>
+  <text x="250" y="80" text-anchor="middle" font-size="9" fill="var(--red)">300M full-time jobs globally exposed</text>
+  <!-- Wealth concentration -->
+  <rect x="100" y="195" width="300" height="50" rx="8" stroke="var(--gold)" stroke-width="1" fill="var(--gold)" fill-opacity="0.03"/>
+  <text x="250" y="212" text-anchor="middle" font-size="9" font-weight="700" fill="var(--gold)">Winner-Take-All Dynamics</text>
+  <text x="250" y="227" text-anchor="middle" font-size="7" fill="var(--dim)">GDP soars + wages collapse = The Great Decoupling</text>
+  <text x="250" y="239" text-anchor="middle" font-size="7" fill="var(--dim)">UBI | Robot Tax | Stakeholder Dividends | Work Guarantees</text>
+</svg>`,
+
+18: `<svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">Organizations Reimagined</text>
+  <!-- Old hierarchy (left) -->
+  <text x="120" y="45" text-anchor="middle" font-size="9" font-weight="600" fill="var(--dim)">Traditional (2020)</text>
+  <circle cx="120" cy="65" r="8" fill="var(--red)" fill-opacity="0.3" stroke="var(--red)" stroke-width="1"/>
+  <line x1="112" y1="73" x2="90" y2="90" stroke="var(--border)" stroke-width="1"/>
+  <line x1="128" y1="73" x2="150" y2="90" stroke="var(--border)" stroke-width="1"/>
+  <circle cx="90" cy="95" r="6" fill="var(--accent)" fill-opacity="0.3" stroke="var(--accent)" stroke-width="0.8"/>
+  <circle cx="150" cy="95" r="6" fill="var(--accent)" fill-opacity="0.3" stroke="var(--accent)" stroke-width="0.8"/>
+  <line x1="84" y1="101" x2="70" y2="115" stroke="var(--border)" stroke-width="0.8"/>
+  <line x1="96" y1="101" x2="110" y2="115" stroke="var(--border)" stroke-width="0.8"/>
+  <line x1="144" y1="101" x2="130" y2="115" stroke="var(--border)" stroke-width="0.8"/>
+  <line x1="156" y1="101" x2="170" y2="115" stroke="var(--border)" stroke-width="0.8"/>
+  <circle cx="70" cy="120" r="4" fill="var(--cyan)" fill-opacity="0.3"/>
+  <circle cx="110" cy="120" r="4" fill="var(--cyan)" fill-opacity="0.3"/>
+  <circle cx="130" cy="120" r="4" fill="var(--cyan)" fill-opacity="0.3"/>
+  <circle cx="170" cy="120" r="4" fill="var(--cyan)" fill-opacity="0.3"/>
+  <text x="120" y="145" text-anchor="middle" font-size="7" fill="var(--dim)">~50 people</text>
+  <!-- New model (right) -->
+  <text x="380" y="45" text-anchor="middle" font-size="9" font-weight="600" fill="var(--gold)">AI-Augmented (2030)</text>
+  <!-- Central humans -->
+  <circle cx="350" cy="90" r="8" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+  <circle cx="380" cy="75" r="8" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+  <circle cx="410" cy="90" r="8" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+  <circle cx="365" cy="108" r="8" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+  <circle cx="395" cy="108" r="8" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+  <!-- AI agent dots surrounding -->
+  <circle cx="330" cy="70" r="3" fill="var(--gold)"/><circle cx="340" cy="60" r="3" fill="var(--gold)"/>
+  <circle cx="420" cy="60" r="3" fill="var(--gold)"/><circle cx="430" cy="70" r="3" fill="var(--gold)"/>
+  <circle cx="435" cy="105" r="3" fill="var(--gold)"/><circle cx="430" cy="120" r="3" fill="var(--gold)"/>
+  <circle cx="330" cy="120" r="3" fill="var(--gold)"/><circle cx="325" cy="105" r="3" fill="var(--gold)"/>
+  <circle cx="345" cy="130" r="3" fill="var(--gold)"/><circle cx="415" cy="130" r="3" fill="var(--gold)"/>
+  <text x="380" y="150" text-anchor="middle" font-size="7" fill="var(--dim)">5 humans + 50 AI agents</text>
+  <!-- Arrow -->
+  <text x="250" y="100" text-anchor="middle" font-size="16" fill="var(--gold)">&#8594;</text>
+  <!-- Bottom comparison -->
+  <rect x="50" y="170" width="400" height="65" rx="8" stroke="var(--border)" stroke-width="1" fill="var(--code-bg)" fill-opacity="0.2"/>
+  <text x="250" y="188" text-anchor="middle" font-size="9" font-weight="700" fill="var(--accent)">What Changes</text>
+  <text x="100" y="205" font-size="7" fill="var(--dim)">Info hierarchy</text><text x="100" y="215" font-size="7" fill="var(--gold)">AI coordination</text>
+  <text x="220" y="205" font-size="7" fill="var(--dim)">HIPPO decisions</text><text x="220" y="215" font-size="7" fill="var(--gold)">Evidence + AI</text>
+  <text x="340" y="205" font-size="7" fill="var(--dim)">Process advantage</text><text x="340" y="215" font-size="7" fill="var(--gold)">Culture as moat</text>
+</svg>`,
+
+19: `<svg viewBox="0 0 500 250" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">Society, Trust & The Human Condition</text>
+  <!-- Four quadrants -->
+  <line x1="250" y1="40" x2="250" y2="200" stroke="var(--border)" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <line x1="50" y1="120" x2="450" y2="120" stroke="var(--border)" stroke-width="0.8" stroke-dasharray="3 2"/>
+  <!-- Trust Collapse (top-left) -->
+  <rect x="60" y="50" width="170" height="60" rx="8" fill="var(--red)" fill-opacity="0.06" stroke="var(--red)" stroke-width="1"/>
+  <text x="145" y="68" text-anchor="middle" font-size="9" font-weight="700" fill="var(--red)">Trust Collapse</text>
+  <text x="145" y="82" text-anchor="middle" font-size="7" fill="var(--dim)">500K+ deepfakes (550% rise)</text>
+  <text x="145" y="94" text-anchor="middle" font-size="7" fill="var(--dim)">Liar's dividend</text>
+  <text x="145" y="106" text-anchor="middle" font-size="7" fill="var(--dim)">Epistemic collapse</text>
+  <!-- Surveillance (top-right) -->
+  <rect x="270" y="50" width="170" height="60" rx="8" fill="var(--accent)" fill-opacity="0.06" stroke="var(--accent)" stroke-width="1"/>
+  <text x="355" y="68" text-anchor="middle" font-size="9" font-weight="700" fill="var(--accent)">AI Surveillance</text>
+  <text x="355" y="82" text-anchor="middle" font-size="7" fill="var(--dim)">$50B+ global market</text>
+  <text x="355" y="94" text-anchor="middle" font-size="7" fill="var(--dim)">60+ countries deployed</text>
+  <text x="355" y="106" text-anchor="middle" font-size="7" fill="var(--dim)">Social credit systems</text>
+  <!-- Digital Divide (bottom-left) -->
+  <rect x="60" y="130" width="170" height="60" rx="8" fill="var(--gold)" fill-opacity="0.06" stroke="var(--gold)" stroke-width="1"/>
+  <text x="145" y="148" text-anchor="middle" font-size="9" font-weight="700" fill="var(--gold)">Digital Divide</text>
+  <text x="145" y="162" text-anchor="middle" font-size="7" fill="var(--dim)">2.6B lack internet</text>
+  <text x="145" y="174" text-anchor="middle" font-size="7" fill="var(--dim)">Language bias (English)</text>
+  <text x="145" y="186" text-anchor="middle" font-size="7" fill="var(--dim)">Education disruption</text>
+  <!-- Identity (bottom-right) -->
+  <rect x="270" y="130" width="170" height="60" rx="8" fill="var(--cyan)" fill-opacity="0.06" stroke="var(--cyan)" stroke-width="1"/>
+  <text x="355" y="148" text-anchor="middle" font-size="9" font-weight="700" fill="var(--cyan)">Human Identity</text>
+  <text x="355" y="162" text-anchor="middle" font-size="7" fill="var(--dim)">Uniqueness threat</text>
+  <text x="355" y="174" text-anchor="middle" font-size="7" fill="var(--dim)">67% anxiety rise</text>
+  <text x="355" y="186" text-anchor="middle" font-size="7" fill="var(--dim)">AI companions</text>
+  <!-- Bottom -->
+  <rect x="100" y="210" width="300" height="30" rx="6" fill="var(--code-bg)" fill-opacity="0.3" stroke="var(--border)" stroke-width="0.5"/>
+  <text x="250" y="227" text-anchor="middle" font-size="8" font-weight="600" fill="var(--text)">Core question: What does it mean to be human</text>
+  <text x="250" y="237" text-anchor="middle" font-size="8" font-weight="600" fill="var(--text)">when machines can think?</text>
+</svg>`,
+
+20: `<svg viewBox="0 0 500 260" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <style>text{font-family:Inter,sans-serif;fill:var(--text)}</style>
+  <text x="250" y="20" text-anchor="middle" font-size="12" font-weight="700" fill="var(--accent)">The Alignment Spectrum: Doom to Bloom</text>
+  <!-- Spectrum bar -->
+  <defs>
+    <linearGradient id="spec" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:var(--red)"/>
+      <stop offset="50%" style="stop-color:var(--gold)"/>
+      <stop offset="100%" style="stop-color:var(--green)"/>
+    </linearGradient>
+  </defs>
+  <rect x="50" y="45" width="400" height="12" rx="6" fill="url(#spec)" opacity="0.5"/>
+  <text x="50" y="42" font-size="7" font-weight="600" fill="var(--red)">DOOM</text>
+  <text x="450" y="42" text-anchor="end" font-size="7" font-weight="600" fill="var(--green)">BLOOM</text>
+  <!-- Thinkers positioned on spectrum -->
+  <line x1="80" y1="57" x2="80" y2="75" stroke="var(--red)" stroke-width="1"/>
+  <rect x="40" y="76" width="80" height="30" rx="5" fill="var(--red)" fill-opacity="0.08" stroke="var(--red)" stroke-width="0.8"/>
+  <text x="80" y="90" text-anchor="middle" font-size="7" font-weight="700" fill="var(--red)">Yudkowsky</text>
+  <text x="80" y="100" text-anchor="middle" font-size="6" fill="var(--dim)">~95% doom</text>
+
+  <line x1="160" y1="57" x2="160" y2="75" stroke="var(--red)" stroke-width="1" opacity="0.7"/>
+  <rect x="125" y="76" width="70" height="30" rx="5" fill="var(--red)" fill-opacity="0.05" stroke="var(--border)" stroke-width="0.8"/>
+  <text x="160" y="90" text-anchor="middle" font-size="7" font-weight="700" fill="var(--text)">Bostrom</text>
+  <text x="160" y="100" text-anchor="middle" font-size="6" fill="var(--dim)">Default: bad</text>
+
+  <line x1="230" y1="57" x2="230" y2="75" stroke="var(--gold)" stroke-width="1"/>
+  <rect x="195" y="76" width="70" height="30" rx="5" fill="var(--gold)" fill-opacity="0.05" stroke="var(--border)" stroke-width="0.8"/>
+  <text x="230" y="90" text-anchor="middle" font-size="7" font-weight="700" fill="var(--text)">Suleyman</text>
+  <text x="230" y="100" text-anchor="middle" font-size="6" fill="var(--dim)">Narrow path</text>
+
+  <line x1="300" y1="57" x2="300" y2="75" stroke="var(--gold)" stroke-width="1"/>
+  <rect x="265" y="76" width="70" height="30" rx="5" fill="var(--gold)" fill-opacity="0.05" stroke="var(--border)" stroke-width="0.8"/>
+  <text x="300" y="90" text-anchor="middle" font-size="7" font-weight="700" fill="var(--text)">Russell</text>
+  <text x="300" y="100" text-anchor="middle" font-size="6" fill="var(--dim)">Fixable</text>
+
+  <line x1="380" y1="57" x2="380" y2="75" stroke="var(--green)" stroke-width="1"/>
+  <rect x="345" y="76" width="70" height="30" rx="5" fill="var(--green)" fill-opacity="0.08" stroke="var(--green)" stroke-width="0.8"/>
+  <text x="380" y="90" text-anchor="middle" font-size="7" font-weight="700" fill="var(--green)">Amodei</text>
+  <text x="380" y="100" text-anchor="middle" font-size="6" fill="var(--dim)">Cautious hope</text>
+
+  <!-- Agreement box -->
+  <rect x="60" y="120" width="380" height="70" rx="8" stroke="var(--accent)" stroke-width="1.5" fill="var(--accent)" fill-opacity="0.03"/>
+  <text x="250" y="138" text-anchor="middle" font-size="9" font-weight="700" fill="var(--accent)">What ALL Agree On</text>
+  <text x="80" y="155" font-size="8" fill="var(--text)">1. AGI is coming (years to decades)</text>
+  <text x="80" y="168" font-size="8" fill="var(--text)">2. Stakes are existential</text>
+  <text x="80" y="181" font-size="8" fill="var(--text)">3. Current institutions are inadequate</text>
+  <text x="290" y="155" font-size="8" fill="var(--text)">4. Time is short</text>
+  <text x="290" y="168" font-size="8" fill="var(--text)">5. Need both tech + policy</text>
+
+  <!-- Bottom call to action -->
+  <rect x="100" y="205" width="300" height="45" rx="8" fill="var(--gold)" fill-opacity="0.08" stroke="var(--gold)" stroke-width="1.5"/>
+  <text x="250" y="222" text-anchor="middle" font-size="9" font-weight="700" fill="var(--gold)">The Choice Is Ours</text>
+  <text x="250" y="236" text-anchor="middle" font-size="7" fill="var(--dim)">We are in the equivalent of 1945 for nuclear weapons</text>
+  <text x="250" y="246" text-anchor="middle" font-size="7" fill="var(--dim)">The governance frameworks haven't been built yet</text>
 </svg>`
 
 };

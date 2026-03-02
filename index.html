@@ -181,7 +181,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
 </div>
 
 <div class="bar" style="display:none" id="mainBar">
-  <div class="logo" onclick="goHome()">RefineryQuest</div>
+  <div class="logo" onclick="goHome()">AI Futures Quest</div>
   <div class="pill lv">&#9733; Lvl <span id="sLv">1</span></div>
   <div class="xpw"><div class="xpf" id="sBar" style="width:0%"></div></div>
   <div class="pill xp">&#9889; <span id="sXp">0</span> XP</div>
@@ -193,7 +193,7 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);min-h
   <div id="vHome">
     <div class="home-title">
       <h1>AI Futures Quest</h1>
-      <p>Master petroleum refining in focused 15-20 min sessions. Read key concepts step by step, take the quiz, move on.</p>
+      <p>Explore the AI revolution — from fundamentals to existential futures — in focused 15-20 min sessions. Read key concepts, take the quiz, level up.</p>
       <div class="sun-info" id="sunInfo"></div>
     </div>
     <div class="ch-list" id="chList"></div>
@@ -304,7 +304,7 @@ function confetti(){
 function chkBadge(){
   const earn=[];
   if(S.done.length>=1&&!S.bg.includes('first'))earn.push('first');
-  if(S.done.length>=5&&!S.bg.includes('half'))earn.push('half');
+  if(S.done.length>=10&&!S.bg.includes('half'))earn.push('half');
   if(S.done.length>=chapters.length&&!S.bg.includes('scholar'))earn.push('scholar');
   if(S.str>=3&&!S.bg.includes('s3'))earn.push('s3');
   if(S.str>=5&&!S.bg.includes('s5'))earn.push('s5');
@@ -508,7 +508,7 @@ function generatePDF(){
   doc.text('Generated: '+dateStr,pw/2,125,{align:'center'});
   doc.setDrawColor(109,40,217);doc.setLineWidth(0.5);doc.line(60,132,150,132);
   doc.setFontSize(10);doc.setTextColor(100,100,100);
-  const tagline=doc.splitTextToSize('Based on "Petroleum Refining in Nontechnical Language" by William L. Leffler. This reference summarizes every core concept covered across all 21 chapters.',120);
+  const tagline=doc.splitTextToSize('A comprehensive reference covering AI fundamentals, industry applications, and speculative futures — from Bostrom to AI 2027 to Deep Utopia.',120);
   doc.text(tagline,pw/2,142,{align:'center'});
 
   // Table of Contents
@@ -556,7 +556,7 @@ function generatePDF(){
     doc.text('Page '+(i-1)+' of '+(totalPages-1),pw-mr,ph-10,{align:'right'});
   }
 
-  doc.save('Refinery_Quest_Summary.pdf');
+  doc.save('AI_Futures_Quest_Summary.pdf');
 }
 
 // ===================== GATE =====================
